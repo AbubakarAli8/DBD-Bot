@@ -1,0 +1,40 @@
+{
+  "token":    "YOUR_BOT_TOKEN_HERE",
+  "clientId": "YOUR_BOT_CLIENT_ID_HERE",
+  "guildId":  "YOUR_SERVER_ID_HERE",
+
+  "channels": {
+    "auditLogs":    "",
+    "modLogs":      "",
+    "welcome":      "",
+    "verify":       "",
+    "roles":        "",
+    "streamAlerts": "",
+    "levelUp":      ""
+  },
+
+  "roles": {
+    "verified": "",
+    "autoRole": "",
+    "mod":      ""
+  },
+
+  "twitch": {
+    "clientId":     "",
+    "clientSecret": "",
+    "streamers":    []
+  },
+
+  "automod": {
+    "bannedWords":   [],
+    "antiInvite":    true,
+    "antiSpam":      true,
+    "antiCaps":      true,
+    "capsThreshold": 70
+  },
+
+  "leveling": {
+    "xpPerMessage": 15,
+    "xpCooldown":   60
+  }
+}
